@@ -1,0 +1,79 @@
+﻿@model IEnumerable<PlateViewModel>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Name Plate</th>
+            <th scope="col">Type Plate</th>
+            <th scope="col">Price</th>
+            @if (User.IsInRole("Restorer"))
+            {
+                <th scope="col">Action</th>
+            }
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var plate in Model)
+        {
+        <tr>
+            <td>
+                @plate.NamePlate <br />
+                Description - @plate.Description
+            </td>
+            <td>@plate.TypePlate</td>
+            <td>@plate.Price</td>
+            @if (User.IsInRole("Restorer"))
+            {
+                <td>
+                    <a type="button" value="Edit" asp-controller="Plates" asp-action="Edit" asp-route-id="@plate.Id" class="btn btn-info"><i class="fa fa-edit"></i>Edit</a>
+                    <button type="button" class="btn btn-danger">
+                        <i class="fa fa-trash"></i>
+                        <a href="#" onclick="deletePlate(@plate.Id); return false;">Delete</a>
+                    </button>
+                </td>
+            }
+            </tr>
+    }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Total</th>
+            <th> @Model.Count() </th>
+            <th></th>
+        </tr>
+    </tfoot>
+</table>
+
+@if (User.IsInRole("Restorer")) {
+<button type="button" class="btn btn-outline-primary">
+    <a asp-controller="Plates" asp-action="Create">New Plate</a>
+</button>
+}
+
+
+@section Scripts{
+    <script>
+        //javascript code
+
+        function deletePlate(plateId) {
+            let confirmation = confirm("Are you sure you want delete plate #"
+                + plateId + "?");
+            if (!confirmation) {
+                return;
+            }
+
+            //cancellazione product
+            $.ajax({
+                type: 'GET',
+                url: `@Url.Action("DeleteAjax", "Plates")/${plateId}`,
+                contentType: 'application/json; charset=utf-8',
+                success: (data) => {
+                    if (data) {
+                        location.href = "@Url.Action("Index", "Plates")"
+                    }
+                }
+            });
+        }
+    </script>
+}

@@ -1,0 +1,11 @@
+C:\Users\michael.locci\Desktop\AcademyG\Week8Test\AcademyG.Week8Test.Ristorante\AcademyG.Week8Test.Ristorante.Core\bin\Debug\net5.0\AcademyG.Week8Test.Ristorante.Core.deps.json
+C:\Users\michael.locci\Desktop\AcademyG\Week8Test\AcademyG.Week8Test.Ristorante\AcademyG.Week8Test.Ristorante.Core\bin\Debug\net5.0\AcademyG.Week8Test.Ristorante.Core.dll
+C:\Users\michael.locci\Desktop\AcademyG\Week8Test\AcademyG.Week8Test.Ristorante\AcademyG.Week8Test.Ristorante.Core\bin\Debug\net5.0\ref\AcademyG.Week8Test.Ristorante.Core.dll
+C:\Users\michael.locci\Desktop\AcademyG\Week8Test\AcademyG.Week8Test.Ristorante\AcademyG.Week8Test.Ristorante.Core\bin\Debug\net5.0\AcademyG.Week8Test.Ristorante.Core.pdb
+C:\Users\michael.locci\Desktop\AcademyG\Week8Test\AcademyG.Week8Test.Ristorante\AcademyG.Week8Test.Ristorante.Core\obj\Debug\net5.0\AcademyG.Week8Test.Ristorante.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\michael.locci\Desktop\AcademyG\Week8Test\AcademyG.Week8Test.Ristorante\AcademyG.Week8Test.Ristorante.Core\obj\Debug\net5.0\AcademyG.Week8Test.Ristorante.Core.AssemblyInfoInputs.cache
+C:\Users\michael.locci\Desktop\AcademyG\Week8Test\AcademyG.Week8Test.Ristorante\AcademyG.Week8Test.Ristorante.Core\obj\Debug\net5.0\AcademyG.Week8Test.Ristorante.Core.AssemblyInfo.cs
+C:\Users\michael.locci\Desktop\AcademyG\Week8Test\AcademyG.Week8Test.Ristorante\AcademyG.Week8Test.Ristorante.Core\obj\Debug\net5.0\AcademyG.Week8Test.Ristorante.Core.csproj.CoreCompileInputs.cache
+C:\Users\michael.locci\Desktop\AcademyG\Week8Test\AcademyG.Week8Test.Ristorante\AcademyG.Week8Test.Ristorante.Core\obj\Debug\net5.0\AcademyG.Week8Test.Ristorante.Core.dll
+C:\Users\michael.locci\Desktop\AcademyG\Week8Test\AcademyG.Week8Test.Ristorante\AcademyG.Week8Test.Ristorante.Core\obj\Debug\net5.0\ref\AcademyG.Week8Test.Ristorante.Core.dll
+C:\Users\michael.locci\Desktop\AcademyG\Week8Test\AcademyG.Week8Test.Ristorante\AcademyG.Week8Test.Ristorante.Core\obj\Debug\net5.0\AcademyG.Week8Test.Ristorante.Core.pdb
